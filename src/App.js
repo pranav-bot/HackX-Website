@@ -4,6 +4,8 @@ import Events from "./pages/events/eventspage";
 import Landing from "./pages/landing/landingpage";
 import OurTeam from "./pages/ourteam/ourteampage";
 
+import "./App.css"
+
 function App() {
   return (
     <BrowserRouter>
