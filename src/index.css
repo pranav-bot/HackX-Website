@@ -1,0 +1,18 @@
+@tailwind base;
+
+@layer base {
+    html {
+        @apply text-white;
+        @apply font-[Poppins];
+    }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: BankGothic;
+    src: url("assets/font/BankGothic\ Regular/BankGothic Regular.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
