@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Poppins&display=swap');
+@import url('http://fonts.cdnfonts.com/css/bankgothic-lt-bt');
+
+.navbar{
+    display: grid;
+    width: 1440pxs;
+    height: 75px;
+    background-color: #1E1E1E;
+}
+
+.navbar h3{
+    color: white;
+    font-family: 'BankGothic Lt BT', sans-serif;
+    position: absolute;
+    width: 97px;
+    height: 14.06px;
+    font-size: 20px;
+    left: 100px;
+    top: 2.5vh;
+}
+
+.nav-menu{
+    grid-column: 3/4;
+}
+
+.nav-menu ul{
+    list-style-type: none;
+  height: 70px;
+  display: flex;
+  align-items:center;
+  float: right;
+
+}
+
+li {
+    color: white;
+    display: block;
+    padding: 17px;
+  }
