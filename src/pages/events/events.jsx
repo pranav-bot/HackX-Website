@@ -7,6 +7,7 @@ import eventimage1 from "../../assets/img/event-image1.png"
 import eventimage2 from "../../assets/img/event-image2.png"
 import logo from "../../assets/img/logo.png"
 import './events.css'
+import Navbar from "../../components/Navbar/Navbar"
 
 
 
@@ -16,8 +17,8 @@ export default function EventsApp(){
     const content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     
     return(
-        <div>
-            {/*Navbar*/}
+        <div className="main-container">
+            <Navbar/>
             <div className="header-bg">
                 <img src={bg} className="bg"/>
                 <img src={logo} className="logo"/>

@@ -3,8 +3,9 @@
 
 .navbar{
     display: grid;
-    width: 1440pxs;
+    width: 100vw;
     height: 75px;
+    overflow: hidden;
     background-color: #1E1E1E;
 }
 
