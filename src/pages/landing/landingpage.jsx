@@ -8,6 +8,7 @@ import Footer from "../../Components/Footer/Footer";
 function Landing() {
   return (
     <>
+        
         <TitleBox>
             Hack X
             <Subtitle>Our Concern is Security</Subtitle>

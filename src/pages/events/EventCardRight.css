@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Poppins&display=swap');
+@import url('http://fonts.cdnfonts.com/css/bankgothic-lt-bt');
+
+
+.event-card-right{
+
+    display: flex;
+    width: 82vw;
+    height: 60vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    color: white;
+}
+
+.right-card-right-side img{
+    width: 30vw;
+    height: 45vh;
+    margin-top: 3vh;
+    margin-right: 8vw;
+}
+
+.right-card-left-side p{
+    font-size: 2vh;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 8vw;
+}
+
+.right-card-left-side h1{
+
+    margin-top: 3vw;
+    margin-left: 5vw;
+}
+
+.card-line-right{
+    border-right: 6px solid white;
+    height: 59vh;
+    margin-right: 1.675vw;
+}
