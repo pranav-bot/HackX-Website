@@ -1,5 +1,4 @@
-import Footer from "../../Components/Footer/Footer";
-import BackgroundImage from "../../assets/img/red-lines-bg.png"
+import BackgroundImage from "../../../assets/img/red-lines-bg.png"
 import Tile from "./Tile";
 
 const About = () => (
@@ -26,8 +25,6 @@ const About = () => (
       <Tile title="NON-TECH TEAM" />
       <Tile white title="OUR LEGACY" />
     </section>
-
-    <Footer />
   </main>
 )
 
