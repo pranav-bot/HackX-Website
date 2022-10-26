@@ -16,7 +16,7 @@ function Hero() {
                 <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
                 <pointLight position={[-10, -10, -10]} />
                 <Torusknot />
-                <OrbitControls />
+                <OrbitControls enableZoom={false} />
                 <AsciiRenderer invert />
             </Canvas>
         </>
