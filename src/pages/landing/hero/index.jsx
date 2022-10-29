@@ -8,7 +8,7 @@ function Hero() {
     return (
         <>
             <TitleBox className="font-title text-7xl sm:text-8xl">
-                <span>We are<br />Hack-X</span>
+                <span>We are<br />HACK-X</span>
                 <h2 className="my-auto text-lg font-regular flex">
                     <div style={{ width: 0, flexGrow: 1, padding: "10px 0 0 12px" }}>A cybersecurity club run and managed by students based in MITWPU, Pune.</div>
                 </h2>
