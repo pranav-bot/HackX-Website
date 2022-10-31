@@ -56,7 +56,7 @@
 
 .Text2{
     color: white;
-    padding-top: 10vh;
+    padding-top: 50vh;
     padding-left: 41vw;
     font-size: 60px;
     margin-bottom: 8vw;
@@ -69,4 +69,53 @@
     height: 30vh;
     margin-left: 50vw;
 }
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+        .main-container{
+            font-family: 'Poppins', sans-serif;
+            background: #1E1E1E;
+            overflow-x: hidden;
+        }
+
+        .header-bg{
+            position: relative;
+            object-fit: cover;
+        }
+
+        .bg{
+            margin: 0px;
+            position: relative;
+            margin: 0;
+            width: 100%;
+            mix-blend-mode: hard-light;
+            height: 50vh;
+            object-fit: cover;
+        }
+
+        .logo{
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            left: 25%;
+            bottom: 25%;
+            object-fit: cover;
+        }
+
+        .Text2{
+            color: white;
+            padding-top: 50vh;
+            padding-left: 25vw;
+            font-size: 4vh;
+            margin-bottom: 8vw;
+        }
+        .line{
+            border-left: 0px solid white;
+            height: 30vh;
+            margin-left: 50vw;
+        }
+        
+    }
 
